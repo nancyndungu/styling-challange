@@ -24,11 +24,15 @@
     width: 22%;
     max-width: 25%;
     height: 80%;
-   color: white;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-color-purple {
     background-color: purple;
+    
+   
     
 }
 
@@ -147,6 +151,15 @@
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .about-society{
+        z-index: 1;
+        position: relative;
+        right: 6%;
+        top: 100px;
+        width: 100%;
+        color: aliceblue;
+    
+      }
     
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -160,5 +173,6 @@
         /* height: 50%; */
         color: aliceblue;
       }
+    
 }
 
