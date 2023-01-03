@@ -1,0 +1,59 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1060px) {
+    .banner{
+        min-height: 700px;
+    }
+    .about-society {
+        margin:0 auto;
+        width: 90%;
+        color:#fff;
+        float: none;
+        font-family: Proxima Nova;
+        font-weight: lighter;
+        text-align: center;
+        padding-top: 30px;
+        height: auto;
+    }
+
+    .mini-menu-items-container {
+        width: 40%;
+    }
+
+    .navigation-menu {
+        display: none;
+    }
+
+    .ham-navigation-menu {
+        display: flex;
+        height: 50px;
+    }
+
+    .logo{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        padding-left: 2%;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 100%;
+    }
+
+    .ham-icon-cont {
+        cursor: pointer;
+        float: right;
+        width: 78%;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .membership-fee-card {
+        min-width: 48%;
+        height: 166px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+}

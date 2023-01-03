@@ -23,52 +23,51 @@
     rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="medium-devices-styles.css">
+    <link rel="stylesheet" type="text/css" href="small-devices-styles.css">
+
 </head>
-<body>  
-       <div class="background">
-        <!-- navbar section -->
-        <nav class="navbar navbar-expand-lg bg-transparent py-3 main-nav-bar">
-            <div class="container">
-            <a class="navbar-brand" href="#">Membership
-                <!-- <img src="" alt="Logo"> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WHO ARE WE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONFERENCE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MEMBERSHIP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">DISCUSSIONS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MEDIA CENTERS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">SUPPORT</a>
-                </li>
-                <button class="btn btn-primary ms-lg-3">Join Now</button>
-                </ul>
+<body> 
+    <div class="banner">
+        <div class="mini-navigation-menu">
+            <div class="mini-menu-items-container">
+                <span>Contacts Us</span>
+                <span>Donate</span>
+                <span>Sign In</span>
+            </div>
+        </div>
+        <div class="navigation-menu">
+            <div class="logo">
+                <img src="photos/droplet.png" width="15%" height="100%"/>
+            </div>
+            <div class="navigation-menu-items">
+                <span>WHO WE ARE&nbsp;&#8964;</span>
+                <span>CONFERENCE&nbsp;&#8964;</span>
+                <span>MEMBERSHIP&nbsp;&#8964;</span>
+                <span>DISCUSSIONS&nbsp;&#8964;</span>
+                <span>MEDIA CENTER&nbsp;&#8964;</span>
+                <span>SUPPORT&nbsp;&#8964;</span>
+            </div>
+            <div class="join-now-sect">
+                <div class="join-now-menu-btn">
+                    <div>JOIN NOW</div>
+                </div>
             </div> 
-            </div> 
-        </nav>
-        <div>
-        <img src="photos/background.jpeg" class= "img-fluid" alt="A photo of Nancy" height="100%" width="100%">
+        </div>
+        <div class="ham-navigation-menu">
+            <div class="logo">
+                <img src="photos/droplet.png"/>
+            </div>
+            <div class="ham-icon-cont">
+                <i class="fa-solid fa-bars fa-3x ham-icon"></i>
+            </div>
+        </div>
         <div class="about-society">
             <h3>About Society for GIS Membership</h3>
             <p>if js Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Molestias, possimus distinctio? Nam accusantium in aperiam numquam,
-                  beatae facilis iusto impedit maxime error repudiandae cumque pariatur. 
-                  Fugit praesentium sapiente odio id!
+                    Molestias, possimus distinctio? Nam accusantium in aperiam numquam,
+                    beatae facilis iusto impedit maxime error repudiandae cumque pariatur. 
+                    Fugit praesentium sapiente odio id!
             </p>
             <h3>Benefits</h3>
             <p>Molestias, possimus distinctio? Nam accusantium in aperiam numquam,
@@ -84,40 +83,48 @@
                 <li>js Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li>js Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
             </ul>
+            <div class="play-button" >
+                <div class="play-button-icon">
+                    <i class="fas fa-play-circle fa-4x"></i> 
+                    <p>Learning more with GIS Improving Customer Service with custom IOS.</p>
+                </div> 
+            </div>    
         </div>
-       </div>
-       <div id="Membershipfees" class="container mt-3 ">
-        <div class="post-heading">
-            <h3 class="display-4">Membership Fees </h3>
-            <p>We offer annual membership at the following rates:</p>
+    </div>
+    <div class="mid-sect">
+    <div class="membership-title">
+        <h2>Membership Fees</h2>
         </div>
+        <div class="membership-offers">
+            <div class="membership-offers-rates"><span>We offer a membership at the following rates:</span></div> 
+            <div class="membership-offers-join"><span>Not a member yet? <a  style="color:darkorange;">Join Online</a></span></div>        
         </div>
         <div class="membership">
             <div class="membership-fee-card card-color-purple">
-                <div class="card-header">$25</div>
+                <span class="membership-fee-card-amt">$25</span>
+                <span class="membership-fee-card-ctg">Student</span>
                 <div class="card-body">
-                    <h5 class="card-title">Student</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <div class="membership-fee-card card-color-brown">
-                <div class="card-header">$50</div>
+                <span class="membership-fee-card-amt">$50</span>
+                <span class="membership-fee-card-ctg">Basic</span>
                 <div class="card-body">
-                    <h5 class="card-title">Student</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <div class="membership-fee-card card-color-orange">
-                <div class="card-header">$100</div>
+                <span class="membership-fee-card-amt">$100</span>
+                <span class="membership-fee-card-ctg">Sponsor</span>
                 <div class="card-body">
-                    <h5 class="card-title">Student</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <div class="membership-fee-card card-color-teal">
-                    <div class="card-header">$1000</div>
+                    <span class="membership-fee-card-amt">$1000</span>
+                    <span class="membership-fee-card-ctg">Lifetime</span>
                     <div class="card-body">
-                        <h5 class="card-title">Student</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
             </div>
@@ -137,142 +144,71 @@
             <div class="conference-card">
                 <img src="photos/paris.jpg" />
             </div>
-        </div>
-        <div class="join-now">
             <div>
-            <div>Want to Join the SCGIS Community</div>
-            <div>We can't wit for you to be a member of the community</div>
-            <button type="button" class="btn btn-warning">Join Now</button>
-            </div>
-            
+            <span class="dot background-color=black" ></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            </div> 
         </div>
-        <footer  id= "footer"class="text-center text-lg-start text-muted">
-            <!-- Section: Social media -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
+    </div>
+    <div class="join-now">
+        <h3>Want to Join the SCGIS Community?</h3> 
+        <h4>We can't wit for you to be a member of the community.</h4>
+        <div class="join-now-btn">Join Now!</div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            <div class="footer-chapters">
+                <div class="column-1">
+                    <p>CHAPTERS</p>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>  
+                </div>
+                <div class="column-2">
+                    <p>COMMITEES</p>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                </div>
+                <div class="column-3">
+                    <p>ABOUT</p>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                </div>
+                <div class="column-4">
+                    <p>SUPPORT</p>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <li>Kenya</li>
+                    <p>SOCIAL MEDIA</p>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>  
+                </div>   
+                <div class="column-5">
+                    <div class="rectangle">&nbsp;&#8964;</div>
+                    </div>  
             </div>
-            <!-- Left -->
-        
-            <!-- Right -->
             <div>
-                <a href="" class="me-4 link-secondary">
-                <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" class="me-4 link-secondary">
-                <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" class="me-4 link-secondary">
-                <i class="fab fa-google"></i>
-                </a>
-                <a href="" class="me-4 link-secondary">
-                <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="me-4 link-secondary">
-                <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class="me-4 link-secondary">
-                <i class="fab fa-github"></i>
-                </a>
+                <p>More information about SGIS: email: hello@sgis.org</p>
+                <hr>
+                <p>Copyright© 2018.All rights reserved</p>
             </div>
-            <!-- Right -->
-            </section>
-            <!-- Section: Social media -->
-        
-            <!-- Section: Links  -->
-            <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
-                <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                    <!-- Content -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem me-3 text-secondary"></i>Chapters
-                    </h6>
-                    <p>
-                    Kenya
-                    </p>
-                    <p>
-                    Brazil
-                    </p>
-                    <p>
-                   Bulgaria
-                    </p>
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                  Communities
-                    </h6>
-                    <p>
-                    <a href="#!" class="text-reset">Domestic Chapters</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">React</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Vue</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Laravel</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                    Useful links
-                    </h6>
-                    <p>
-                    <a href="#!" class="text-reset">Pricing</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Settings</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Orders</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Help</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                    <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
-                    <p>
-                    <i class="fas fa-envelope me-3 text-secondary"></i>
-                    info@example.com
-                    </p>
-                    <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-                    <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
-                </div>
-                <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-            </div>
-            </section>
-            <!-- Section: Links  -->
-        
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">membership.com</a>
-            </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
+          
         </div>
+    </div>   
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>   
 </html>
