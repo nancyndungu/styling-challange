@@ -6,11 +6,12 @@
 }
 
 .banner{
-    min-height: 750px;
+    min-height: 850px;
     width:100%;
     background-image: url(./photos/background.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
+    background-color: aqua;
 }
 .mini-navigation-menu {
     width: 100%;
@@ -22,12 +23,14 @@
 .mini-menu-items-container {
     float: right;
     width: 20%;
+    padding-right: 4%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-weight: bold;
     font-family: Proxima Nova;
     color: #fff;
+    
 }
 
 .navigation-menu {
@@ -60,6 +63,7 @@
     color: #fff;
     vertical-align: 10px;
     cursor: pointer;
+   
 
 }
 .ham-navigation-menu {
@@ -109,6 +113,7 @@
     width: 80%;
     height: auto;
     margin: 0 auto;
+    
 }
 .membership-title{
     height: 68px;
@@ -143,6 +148,7 @@
     height: auto;
     width: 100%;
     flex-wrap: wrap;
+   
 }
 .membership-fee-card {
     width: 23%;
@@ -175,13 +181,15 @@
     background-color: teal;
 }
 .about-society{
-  width: 40%;
+  width: 56%;
   height: auto;
   color:#fff;
   font-family: Proxima Nova;
   font-weight: lighter;
   float: right;
   padding-top: 30px;
+  padding-right: 15%;
+  padding-left: 7%;
   
 }
 .our-conferences{
@@ -234,6 +242,27 @@
     font-size:medium;
     
     
+}
+
+.navigation-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+    padding: 1em 0;
+}
+ .dot{
+    width: 10px;
+    height: 10px;
+   background-color:#d4d4d4;
+   border-radius: 50%;
+}
+
+.dot.active{
+    width: 10px;
+    height: 10px;
+   background-color:#FC6A03;
+   border-radius: 50%;
 }
 .view-conf-btn {
     z-index: 1;
@@ -320,7 +349,51 @@
     justify-content: space-between;
     padding-top: 4%;
     font-family: Proxima Nova;
-    
-    
+    margin-bottom: 2%;  
+}
+.copyright-info small{
+ display: flex;
+ justify-content: space-between;
 }
 
+.footer-info hr{
+    font-family: 'Times New Roman', Times, serif;  
+    margin: 0em;
+    border-width: 2px; 
+    
+}
+.footer-info small{
+    padding: 0;
+    margin: 0;
+}
+
+.social-media-title{
+    padding-top: 18%;
+    color: #fff;
+}
+
+.social-media{
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;  
+    margin-top: 0;
+}
+.social-media i{
+    font-size: larger;
+}
+
+.footer-chapters strong{
+    color:#d4d4d4
+}
+.column-5{
+    padding-right: 0.5%;
+}
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+}
